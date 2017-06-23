@@ -1,0 +1,586 @@
+========================player===========================
+Functions : 46
+
+METHOD (id = 1610612736) : 
+    Signature   : void QueryInterface([in] UserDefined * riid, [out] unknown 16410 ppvObj)
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610612737) : 
+    Signature   : unsigned int AddRef()
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610612738) : 
+    Signature   : unsigned int Release()
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610678272) : 
+    Signature   : void GetTypeInfoCount([out] unknown 16407 pctinfo)
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610678273) : 
+    Signature   : void GetTypeInfo([in] unknown 23 itinfo, [in] unsigned int lcid, [out] unknown 16410 pptinfo)
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610678274) : 
+    Signature   : void GetIDsOfNames([in] UserDefined * riid, [in] unknown 16410 rgszNames, [in] unknown 23 cNames, [in] unsigned int lcid, [out] int * rgdispid)
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610678275) : 
+    Signature   : void Invoke([in] int dispidMember, [in] UserDefined * riid, [in] unsigned int lcid, [in] unknown 18 wFlags, [in] UserDefined * pdispparams, [out] Variant * pvarResult, [out] UserDefined * pexcepinfo, [out] unknown 16407 puArgErr)
+    Description : null
+    Help File   : null
+
+METHOD (id = 3) : 
+    Signature   : void close()
+    Description : Closes the media
+    Help File   : null
+
+PROPERTY GET (id = 1) : 
+    Signature   : String URL()
+    Description : Returns or sets the URL
+    Help File   : null
+
+PROPERTY PUT (id = 1) : 
+    Signature   : void URL([in] String null)
+    Description : Returns or sets the URL
+    Help File   : null
+
+PROPERTY GET (id = 2) : 
+    Signature   : UserDefined openState()
+    Description : Returns the open state of the player
+    Help File   : null
+
+PROPERTY GET (id = 10) : 
+    Signature   : UserDefined playState()
+    Description : Returns the play state of the player
+    Help File   : null
+
+PROPERTY GET (id = 4) : 
+    Signature   : UserDefined controls()
+    Description : Returns the control handler
+    Help File   : null
+
+PROPERTY GET (id = 5) : 
+    Signature   : UserDefined settings()
+    Description : Returns the settings handler
+    Help File   : null
+
+PROPERTY GET (id = 6) : 
+    Signature   : UserDefined currentMedia()
+    Description : Returns or sets the current media object
+    Help File   : null
+
+PROPERTY PUT (id = 6) : 
+    Signature   : void currentMedia([in] UserDefined * null)
+    Description : Returns or sets the current media object
+    Help File   : null
+
+PROPERTY GET (id = 8) : 
+    Signature   : UserDefined mediaCollection()
+    Description : Returns the media collection handler
+    Help File   : null
+
+PROPERTY GET (id = 9) : 
+    Signature   : UserDefined playlistCollection()
+    Description : Returns the playlist collection handler
+    Help File   : null
+
+PROPERTY GET (id = 11) : 
+    Signature   : String versionInfo()
+    Description : Returns the version information for the player
+    Help File   : null
+
+METHOD (id = 12) : 
+    Signature   : void launchURL([in] String bstrURL)
+    Description : null
+    Help File   : null
+
+PROPERTY GET (id = 7) : 
+    Signature   : UserDefined network()
+    Description : Returns the network information handler
+    Help File   : null
+
+PROPERTY GET (id = 13) : 
+    Signature   : UserDefined currentPlaylist()
+    Description : Returns/sets the current playlist
+    Help File   : null
+
+PROPERTY PUT (id = 13) : 
+    Signature   : void currentPlaylist([in] UserDefined * null)
+    Description : Returns/sets the current playlist
+    Help File   : null
+
+PROPERTY GET (id = 14) : 
+    Signature   : UserDefined cdromCollection()
+    Description : Get the CDROM drive collection
+    Help File   : null
+
+PROPERTY GET (id = 15) : 
+    Signature   : UserDefined closedCaption()
+    Description : Returns the closed caption handler
+    Help File   : null
+
+PROPERTY GET (id = 16) : 
+    Signature   : boolean isOnline()
+    Description : Returns whether the machine is online.
+    Help File   : null
+
+PROPERTY GET (id = 17) : 
+    Signature   : UserDefined Error()
+    Description : Returns the error object
+    Help File   : null
+
+PROPERTY GET (id = 18) : 
+    Signature   : String status()
+    Description : Returns status string
+    Help File   : null
+
+PROPERTY GET (id = 40) : 
+    Signature   : UserDefined dvd()
+    Description : Returns the DVD handler
+    Help File   : null
+
+METHOD (id = 41) : 
+    Signature   : UserDefined newPlaylist([in] String bstrName, [in] String bstrURL)
+    Description : Creates a new playlist object
+    Help File   : null
+
+METHOD (id = 42) : 
+    Signature   : UserDefined newMedia([in] String bstrURL)
+    Description : Creates a new media object
+    Help File   : null
+
+PROPERTY GET (id = 19) : 
+    Signature   : boolean enabled()
+    Description : Returns a boolean value specifying whether or not the control is enabled
+    Help File   : null
+
+PROPERTY PUT (id = 19) : 
+    Signature   : void enabled([in] boolean null)
+    Description : Returns a boolean value specifying whether or not the control is enabled
+    Help File   : null
+
+PROPERTY GET (id = 21) : 
+    Signature   : boolean fullScreen()
+    Description : Returns a boolean value specifying whether or not the control is in full screen mode
+    Help File   : null
+
+PROPERTY PUT (id = 21) : 
+    Signature   : void fullScreen([] boolean null)
+    Description : Returns a boolean value specifying whether or not the control is in full screen mode
+    Help File   : null
+
+PROPERTY GET (id = 22) : 
+    Signature   : boolean enableContextMenu()
+    Description : Returns a boolean value specifying whether or not the context menu is enabled on the control
+    Help File   : null
+
+PROPERTY PUT (id = 22) : 
+    Signature   : void enableContextMenu([] boolean null)
+    Description : Returns a boolean value specifying whether or not the context menu is enabled on the control
+    Help File   : null
+
+PROPERTY PUT (id = 23) : 
+    Signature   : void uiMode([in] String null)
+    Description : Specifies the ui mode to select
+    Help File   : null
+
+PROPERTY GET (id = 23) : 
+    Signature   : String uiMode()
+    Description : Specifies the ui mode to select
+    Help File   : null
+
+PROPERTY GET (id = 24) : 
+    Signature   : boolean stretchToFit()
+    Description : Returns a boolean value specifying whether or not video is stretched
+    Help File   : null
+
+PROPERTY PUT (id = 24) : 
+    Signature   : void stretchToFit([in] boolean null)
+    Description : Returns a boolean value specifying whether or not video is stretched
+    Help File   : null
+
+PROPERTY GET (id = 25) : 
+    Signature   : boolean windowlessVideo()
+    Description : Returns a boolean value specifying whether or not video is windowless
+    Help File   : null
+
+PROPERTY PUT (id = 25) : 
+    Signature   : void windowlessVideo([in] boolean null)
+    Description : Returns a boolean value specifying whether or not video is windowless
+    Help File   : null
+
+PROPERTY GET (id = 26) : 
+    Signature   : boolean isRemote()
+    Description : Indicates whether the player is running remotely
+    Help File   : null
+
+PROPERTY GET (id = 27) : 
+    Signature   : UserDefined playerApplication()
+    Description : Returns the player application handler
+    Help File   : null
+
+METHOD (id = 28) : 
+    Signature   : void openPlayer([in] String bstrURL)
+    Description : Opens the player with the specified URL
+    Help File   : null
+
+
+
+Variables  : 0
+
+========================settings===========================
+Functions : 33
+
+METHOD (id = 1610612736) : 
+    Signature   : void QueryInterface([in] UserDefined * riid, [out] unknown 16410 ppvObj)
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610612737) : 
+    Signature   : unsigned int AddRef()
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610612738) : 
+    Signature   : unsigned int Release()
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610678272) : 
+    Signature   : void GetTypeInfoCount([out] unknown 16407 pctinfo)
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610678273) : 
+    Signature   : void GetTypeInfo([in] unknown 23 itinfo, [in] unsigned int lcid, [out] unknown 16410 pptinfo)
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610678274) : 
+    Signature   : void GetIDsOfNames([in] UserDefined * riid, [in] unknown 16410 rgszNames, [in] unknown 23 cNames, [in] unsigned int lcid, [out] int * rgdispid)
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610678275) : 
+    Signature   : void Invoke([in] int dispidMember, [in] UserDefined * riid, [in] unsigned int lcid, [in] unknown 18 wFlags, [in] UserDefined * pdispparams, [out] Variant * pvarResult, [out] UserDefined * pexcepinfo, [out] unknown 16407 puArgErr)
+    Description : null
+    Help File   : null
+
+PROPERTY GET (id = 113) : 
+    Signature   : boolean isAvailable([in] String bstrItem)
+    Description : Returns whether or not the specified media functionality is available
+    Help File   : null
+
+PROPERTY GET (id = 101) : 
+    Signature   : boolean autoStart()
+    Description : Returns whether media should automatically begin playing
+    Help File   : null
+
+PROPERTY PUT (id = 101) : 
+    Signature   : void autoStart([in] boolean null)
+    Description : Returns whether media should automatically begin playing
+    Help File   : null
+
+PROPERTY GET (id = 108) : 
+    Signature   : String baseURL()
+    Description : Returns the base URL used for relative path resolution
+    Help File   : null
+
+PROPERTY PUT (id = 108) : 
+    Signature   : void baseURL([in] String null)
+    Description : Returns the base URL used for relative path resolution
+    Help File   : null
+
+PROPERTY GET (id = 109) : 
+    Signature   : String defaultFrame()
+    Description : Returns the frame location that changes when a URL flip occurs
+    Help File   : null
+
+PROPERTY PUT (id = 109) : 
+    Signature   : void defaultFrame([in] String null)
+    Description : Returns the frame location that changes when a URL flip occurs
+    Help File   : null
+
+PROPERTY GET (id = 103) : 
+    Signature   : boolean invokeURLs()
+    Description : Returns whether URL events should spawn a browser.
+    Help File   : null
+
+PROPERTY PUT (id = 103) : 
+    Signature   : void invokeURLs([in] boolean null)
+    Description : Returns whether URL events should spawn a browser.
+    Help File   : null
+
+PROPERTY GET (id = 104) : 
+    Signature   : boolean mute()
+    Description : Returns whether audio should be muted.
+    Help File   : null
+
+PROPERTY PUT (id = 104) : 
+    Signature   : void mute([in] boolean null)
+    Description : Returns whether audio should be muted.
+    Help File   : null
+
+PROPERTY GET (id = 105) : 
+    Signature   : int playCount()
+    Description : Returns how many times media should play
+    Help File   : null
+
+PROPERTY PUT (id = 105) : 
+    Signature   : void playCount([in] int null)
+    Description : Returns how many times media should play
+    Help File   : null
+
+PROPERTY GET (id = 106) : 
+    Signature   : double rate()
+    Description : Returns current playback rate
+    Help File   : null
+
+PROPERTY PUT (id = 106) : 
+    Signature   : void rate([in] double null)
+    Description : Returns current playback rate
+    Help File   : null
+
+PROPERTY GET (id = 102) : 
+    Signature   : int balance()
+    Description : Returns current audio Balance
+    Help File   : null
+
+PROPERTY PUT (id = 102) : 
+    Signature   : void balance([in] int null)
+    Description : Returns current audio Balance
+    Help File   : null
+
+PROPERTY GET (id = 107) : 
+    Signature   : int volume()
+    Description : Returns current audio volume
+    Help File   : null
+
+PROPERTY PUT (id = 107) : 
+    Signature   : void volume([in] int null)
+    Description : Returns current audio volume
+    Help File   : null
+
+METHOD (id = 110) : 
+    Signature   : boolean getMode([in] String bstrMode)
+    Description : Returns the mode of the playlist
+    Help File   : null
+
+METHOD (id = 111) : 
+    Signature   : void setMode([in] String bstrMode, [in] boolean varfMode)
+    Description : Sets the mode of the playlist
+    Help File   : null
+
+PROPERTY GET (id = 112) : 
+    Signature   : boolean enableErrorDialogs()
+    Description : Returns whether error dialogs are shown by default when embedded
+    Help File   : null
+
+PROPERTY PUT (id = 112) : 
+    Signature   : void enableErrorDialogs([in] boolean null)
+    Description : Returns whether error dialogs are shown by default when embedded
+    Help File   : null
+
+PROPERTY GET (id = 114) : 
+    Signature   : int defaultAudioLanguage()
+    Description : Returns the LCID of default audio language
+    Help File   : null
+
+PROPERTY GET (id = 115) : 
+    Signature   : String mediaAccessRights()
+    Description : null
+    Help File   : null
+
+METHOD (id = 116) : 
+    Signature   : boolean requestMediaAccessRights([in] String bstrDesiredAccess)
+    Description : null
+    Help File   : null
+
+
+
+Variables  : 0
+
+=======================controls============================
+Functions : 34
+
+METHOD (id = 1610612736) : 
+    Signature   : void QueryInterface([in] UserDefined * riid, [out] unknown 16410 ppvObj)
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610612737) : 
+    Signature   : unsigned int AddRef()
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610612738) : 
+    Signature   : unsigned int Release()
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610678272) : 
+    Signature   : void GetTypeInfoCount([out] unknown 16407 pctinfo)
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610678273) : 
+    Signature   : void GetTypeInfo([in] unknown 23 itinfo, [in] unsigned int lcid, [out] unknown 16410 pptinfo)
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610678274) : 
+    Signature   : void GetIDsOfNames([in] UserDefined * riid, [in] unknown 16410 rgszNames, [in] unknown 23 cNames, [in] unsigned int lcid, [out] int * rgdispid)
+    Description : null
+    Help File   : null
+
+METHOD (id = 1610678275) : 
+    Signature   : void Invoke([in] int dispidMember, [in] UserDefined * riid, [in] unsigned int lcid, [in] unknown 18 wFlags, [in] UserDefined * pdispparams, [out] Variant * pvarResult, [out] UserDefined * pexcepinfo, [out] unknown 16407 puArgErr)
+    Description : null
+    Help File   : null
+
+PROPERTY GET (id = 62) : 
+    Signature   : boolean isAvailable([in] String bstrItem)
+    Description : Returns whether or not the specified media functionality is available
+    Help File   : null
+
+METHOD (id = 51) : 
+    Signature   : void play()
+    Description : Begins playing media
+    Help File   : null
+
+METHOD (id = 52) : 
+    Signature   : void stop()
+    Description : Stops play of media
+    Help File   : null
+
+METHOD (id = 53) : 
+    Signature   : void pause()
+    Description : Pauses play of media
+    Help File   : null
+
+METHOD (id = 54) : 
+    Signature   : void fastForward()
+    Description : Fast play of media in forward direction
+    Help File   : null
+
+METHOD (id = 55) : 
+    Signature   : void fastReverse()
+    Description : Fast play of media in reverse direction
+    Help File   : null
+
+PROPERTY GET (id = 56) : 
+    Signature   : double currentPosition()
+    Description : Returns the current position in media
+    Help File   : null
+
+PROPERTY PUT (id = 56) : 
+    Signature   : void currentPosition([in] double null)
+    Description : Returns the current position in media
+    Help File   : null
+
+PROPERTY GET (id = 57) : 
+    Signature   : String currentPositionString()
+    Description : Returns the current position in media as a string
+    Help File   : null
+
+METHOD (id = 58) : 
+    Signature   : void next()
+    Description : Sets the current item to the next item in the playlist
+    Help File   : null
+
+METHOD (id = 59) : 
+    Signature   : void previous()
+    Description : Sets the current item to the previous item in the playlist
+    Help File   : null
+
+PROPERTY GET (id = 60) : 
+    Signature   : UserDefined currentItem()
+    Description : Returns/Sets the play item
+    Help File   : null
+
+PROPERTY PUT (id = 60) : 
+    Signature   : void currentItem([in] UserDefined * null)
+    Description : Returns/Sets the play item
+    Help File   : null
+
+PROPERTY GET (id = 61) : 
+    Signature   : int currentMarker()
+    Description : Returns the current marker
+    Help File   : null
+
+PROPERTY PUT (id = 61) : 
+    Signature   : void currentMarker([in] int null)
+    Description : Returns the current marker
+    Help File   : null
+
+METHOD (id = 63) : 
+    Signature   : void playItem([in] UserDefined * pIWMPMedia)
+    Description : Sets the current item and plays it
+    Help File   : null
+
+METHOD (id = 64) : 
+    Signature   : void step([in] int lStep)
+    Description : Advances the video one frame
+    Help File   : null
+
+PROPERTY GET (id = 65) : 
+    Signature   : int audioLanguageCount()
+    Description : Returns the count of supported audio languages
+    Help File   : null
+
+METHOD (id = 66) : 
+    Signature   : int getAudioLanguageID([in] int lIndex)
+    Description : Returns the LCID corresponding to the index
+    Help File   : null
+
+METHOD (id = 67) : 
+    Signature   : String getAudioLanguageDescription([in] int lIndex)
+    Description : Returns the desription corresponding to the index
+    Help File   : null
+
+PROPERTY GET (id = 68) : 
+    Signature   : int currentAudioLanguage()
+    Description : Gets the current audio language setting for playback
+    Help File   : null
+
+PROPERTY PUT (id = 68) : 
+    Signature   : void currentAudioLanguage([in] int null)
+    Description : Gets the current audio language setting for playback
+    Help File   : null
+
+PROPERTY GET (id = 69) : 
+    Signature   : int currentAudioLanguageIndex()
+    Description : Gets the current audio language index setting for playback
+    Help File   : null
+
+PROPERTY PUT (id = 69) : 
+    Signature   : void currentAudioLanguageIndex([in] int null)
+    Description : Gets the current audio language index setting for playback
+    Help File   : null
+
+METHOD (id = 70) : 
+    Signature   : String getLanguageName([in] int lLangID)
+    Description : Returns the human-readable name of language specified by LCID
+    Help File   : null
+
+PROPERTY GET (id = 71) : 
+    Signature   : String currentPositionTimecode()
+    Description : Returns the current timecode position in media
+    Help File   : null
+
+PROPERTY PUT (id = 71) : 
+    Signature   : void currentPositionTimecode([in] String null)
+    Description : Returns the current timecode position in media
+    Help File   : null
+
+
+
+Variables  : 0
+
